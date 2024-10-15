@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music player</title>
+    <title>music player</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -23,20 +23,27 @@
         <h2 id="title">Song title</h2>
         <p id="artist">Artis name</p>
 
-    </div>
 
-    <!-- progress container -->
-    <div class="progress-container">
-        <div class="prograss-bar">
-            <div class="progress"></div>
 
-        </div>
-        <div class="time">
-            <span id="current-time">0:00</span>
-            <span id="duition">0:00</span>
+        <!-- progress container -->
+        <div class="progress-container">
+            <div class="prograss-bar">
+                <div class="progress"></div>
+
+            </div>
+            <div class="time">
+                <span id="current-time">0:00</span>
+                <span id="duition">0:00</span>
+            </div>
         </div>
 
         <!-- player controls -->
+        <div class="controls">
+            <button id="prev"><i class="fas fa-step-backward"></i></button>
+            <button id="play"><i class="fas fa-play"></i></button>
+            <button id="next"><i class="fas fa-forward"></i></button>
+
+        </div>
 
     </div>
     <script src="/main.js"></script>
