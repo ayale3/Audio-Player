@@ -56,14 +56,16 @@ body{
     border-radius: 5px;
     height: 6px;
     overflow: hidden;
+    cursor: pointer;
 
 }
 
-.progress{
+#progress{
     background-color: #1db945;
-    width: 0%;
+    width: 0;
     height: 100%;
     transition: width 0.1s linear;
+   
 }
 
 .time{
